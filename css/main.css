@@ -1,0 +1,80 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+	
+body 
+{
+				
+			  background-color: #7ed957;
+		 
+					-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale
+}
+
+
+
+
+
+footer 
+{	
+			  background-color: #ff0000;
+			  color: #000;
+			  text-align: left;
+			  margin: 0;
+			  border: 0;
+			  width:100%;
+
+			 
+			   position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px; /* Set the fixed height of the footer here */
+  line-height: 75px; /* Vertically center the text there */
+opacity: .70;
+}
+		
+header 
+			{	
+				background-color: #ffde59;				
+				padding-bottom: 0px;
+				border-style: outset;				
+				border-color: #7ed957;
+				border-width: 1.5px;
+				margin: 0px;
+				padding-bottom: 10px;
+			}
+
+
+
+.prop-box-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  .logo {
+    height:200px;
+     width:200px
+}
+
+
+.bust-box{
+background-color:#ffde59;
+opacity:.5; 
+}
+
+
+.dick {
+  width: 50px;
+  height: 50px;
+}
+
+
+.box-additive-color{
+
+background-color:#ffde59;
+
+}
