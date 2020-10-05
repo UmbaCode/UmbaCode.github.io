@@ -11,7 +11,7 @@ body
 			  background-color: #7ed957;
 		 
 					-webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale
+-moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -20,15 +20,10 @@ body
 
 footer 
 {	
-			  background-color: #ff0000;
-			  color: #000;
-			  text-align: left;
-			  margin: 0;
-			  border: 0;
+			  background-color: #ffde59;
 			  width:100%;
 
 			 
-			   position: absolute;
   bottom: 0;
   width: 100%;
   height: 30px; /* Set the fixed height of the footer here */
@@ -45,6 +40,7 @@ header
 				border-width: 1.5px;
 				margin: 0px;
 				padding-bottom: 10px;
+
 			}
 
 
@@ -55,22 +51,26 @@ header
     align-items: center;
     
 }
+
+.hotep_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
   .logo {
     height:200px;
-     width:200px
+     width:200px;
+     image-rendering: auto;
+     image-rendering: smooth;
+     image-rendering: high-quality;
 }
 
 
-.bust-box{
-background-color:#ffde59;
-opacity:.5; 
-}
 
 
-.dick {
-  width: 50px;
-  height: 50px;
-}
 
 
 .box-additive-color{
@@ -78,3 +78,13 @@ opacity:.5;
 background-color:#ffde59;
 
 }
+
+
+.side_stick{
+				position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
+
+#one { position: sticky; top: 20px; }
